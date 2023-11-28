@@ -1,0 +1,131 @@
+<style>
+    body{
+        background-image: linear-gradient(rgba(5, 9, 9, 0.589),rgba(0, 0, 0, 0.584)),url(WEB\ BG\ 2.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+background-size: 100% 100%;
+margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+    }
+.arrange{
+position: absolute;
+justify-content: space-between;
+
+}
+.arrange ul li{
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: aliceblue;
+    font-family: optionfont;
+    border: 2px;
+}
+.arrange ul li .box{
+display: inline-block;
+border-radius: 10px;
+background: transparent;
+backdrop-filter: blur(20px);
+padding: 120px;
+border: 2px solid black;
+width: 150px;
+height: 250px;
+}
+
+.arrange ul li a{
+    color:white;
+    text-decoration: none;
+    font-family: optionfont;
+    font-weight: bold;
+    border: 2px;
+    transition: .5s;
+    font-size: 30px;
+    border: 2px solid  rgb(64, 230, 233);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.arrange ul li a:hover{
+    font-family: optionfont;
+    border-radius: 50px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(64, 230, 233);
+    box-shadow: 0 0 5px rgb(64, 230, 233),
+}
+
+.options {
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 35px;
+    color: aliceblue;
+    transition: 5s;
+    font-family: optionfont;
+    border: 2px;
+    position: relative;
+    right: 590px;
+    bottom: 290px;
+}
+.options a{
+    color:white;
+    text-decoration: none;
+    font-family: optionfont;
+    font-weight: bold;
+    border: 10px;
+    transition: .5s;
+    position: relative;
+}
+
+.options a:hover{
+    font-family: optionfont;
+    border-radius: 50px;
+    padding: 20px;
+    color: black;
+    background-color: rgb(64, 230, 233);
+    box-shadow: 0 0 5px rgb(64, 230, 233),
+                0 0 25px rgb(64, 230, 233);
+position: relative;
+}
+
+@font-face{
+font-family: optionfont;
+src: url(VarelaRound-Regular.ttf);
+}
+img{
+    border-radius: 100%;
+    padding-bottom: 25px;
+}
+</style>
+
+<html>
+    <body>
+<div  class="arrange"><ul>
+    <li><div  class="box">
+        <h1>Vidyadhar</h1>
+        <img src="vidya.jpg" height="150px" width="auto">
+        <a href="mailto:purnavidyadharnani@gmail.com">contact</a>
+        </div></li>
+        
+    <li><div  class="box">
+        <h1>Vijeta</h1>
+        <img src="vijita.jpg" height="150px" width="auto">
+        <a href="mailto:18vijetadangi@gmail.com">contact</a>
+        </div></li>
+        
+    <li><div  class="box">
+        <h1>Garima</h1>
+        <img src="garima.jpg" height="150px" width="auto">
+        <a href="mailto:garimapathania23@gmail.com">contact</a>
+        </div></li>
+        
+</ul></div>
+<div class="options">
+<a href="index.html">home</a>
+</div>
+</div>
+    </body>
+</html>
